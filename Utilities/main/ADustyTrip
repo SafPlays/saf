@@ -131,6 +131,13 @@ local Slider = PaidTab:CreateSlider({
    end,
 })
 
+local UpdatesTab = Window:CreateTab("Updates", 4483362458) -- Title, Image
+
+local Label = UpdatesTab:CreateLabel("Added - Added - Paid Menu")
+local Label = UpdatesTab:CreateLabel("Added - Spawn Items")
+local Label = UpdatesTab:CreateLabel("Added - AutoFarm")
+local Label = UpdatesTab:CreateLabel("To Get Acces To Paid Join DIscord To Buy")
+
 local GuiTab = Window:CreateTab("Credits", nil) -- Title, Image
 
 local Label = GuiTab:CreateLabel("Credits To -- Saf (Creator Of The Script)")
