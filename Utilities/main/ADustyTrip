@@ -64,7 +64,7 @@ local PaidTab = Window:CreateTab("Paid", nil) -- Title, Image
 local Button1 = PaidTab:CreateButton({
    Name = "AutoFarm",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/MiniFarm",true))()
    end,
 })
 
@@ -130,3 +130,7 @@ local Slider = PaidTab:CreateSlider({
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
+
+local GuiTab = Window:CreateTab("Credits", nil) -- Title, Image
+
+local Label = GuiTab:CreateLabel("Credits To -- Saf (Creator Of The Script)")
