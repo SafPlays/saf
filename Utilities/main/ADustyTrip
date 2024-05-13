@@ -131,7 +131,7 @@ local Slider = PaidTab:CreateSlider({
    end,
 })
 
-local UpdatesTab = Window:CreateTab("Updates", 4483362458) -- Title, Image
+local UpdatesTab = Window:CreateTab("Updates", nil) -- Title, Image
 
 local Label = UpdatesTab:CreateLabel("Added - Added - Paid Menu")
 local Label = UpdatesTab:CreateLabel("Added - Spawn Items")
